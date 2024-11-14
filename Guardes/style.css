@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.abovenavbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+
+
+} 
+#homepage .abovenavbar div{
+    margin: 15px 45px;
+} 
+#homepage .abovenavbar .blackbox2{
+    margin-left: -35px;
+}
+#homepage .abovenavbar .blackbox1 i{
+    color: yellow;
+}
+#homepage .abovenavbar .blackbox2 i{
+    color: yellow;
+}
+#homepage .abovenavbar .blackbox3 i{
+    color: yellow;
+}
+header .navbar ul{
+    display: flex;
+    gap: 35px;
+     padding: 40px 55px 15px 15px;
+    list-style: none;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+header .navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+header .navbar h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+

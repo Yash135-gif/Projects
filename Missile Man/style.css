@@ -1,0 +1,46 @@
+.whole{
+    width: 100%;
+    height: auto;
+    background-color: #c4c4d7;
+    box-sizing: border-box;
+    border: 10px solid black;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    max-width: 990px;
+    margin: 0 auto;
+
+
+}
+.whole .content .top-content img{
+    width: 300px;
+    height: 320px;
+    border-radius: 50%
+}
+.whole .content .top-content{
+    display: flex;
+    align-items: flex-end;
+    gap: 70px;
+    margin: 80px 0px;
+   font-size: 42px;
+    font-weight: 900;
+
+}
+.whole .content .top-content .name-date{
+    text-align: end;
+
+}
+.paragraph div h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+.paragraph div P{
+     line-height: 20px;
+     font-size: 18px;
+     font-weight: 300;
+}
+
