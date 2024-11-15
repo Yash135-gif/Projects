@@ -5,8 +5,8 @@
 }
 .upper-bar{
     width: 100%;
-    height: 50px;
-    background-color: lightblue;
+    height: 55px;
+    background-color: rgba(173, 216, 230, 0.5);
     display: flex;
     color: gray;
     align-items: center;
