@@ -6,7 +6,7 @@ body {
 header {
   width: 100%;
   height: 113px;
-  background-color: pink;
+  background-color: white;
   color: gray;
   display: flex;
   flex-wrap: wrap;
@@ -50,35 +50,47 @@ header .right-side-header p {
 
 #home {
   width: 100%;
-  height: 150vh;
-  border: 4px solid red;
+  height: 165vh;
   box-sizing: border-box;
   align-items: center;
   font-family: sans-serif;
 }
 #home .backgroundimage-children {
+  background-image: url(banner-bg.png);
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 94vh;
-  border: 2px solid green;
+  height: 98vh;
   text-align: center;
   box-sizing: border-box;
 }
-#home .backgroundimage-children h1 {
-  margin-top: 80px;
+#home .backgroundimage-children .headi-poor-child {
+  padding-top: 86px;
+  padding-bottom: 30px;
   font-size: 40px;
   font-weight: 800px;
+  color: white;
+  margin: 0;
 }
 #home .backgroundimage-children p {
   margin-top: -5px;
   font-size: 20px;
   line-height: 25px;
+  color: white;
 }
 #home .backgroundimage-children button {
-  padding: 10px 20px;
+  padding: 15px 25px;
   font-family: sans-serif;
   font-size: 15px;
   font-weight: 600;
   margin-top: 15px;
+  border: none;
+  color: white;
+  background-color: #F64646;
+  transition: 300ms;
+}
+#home .backgroundimage-children button:hover {
+  background-color: #120A78;
 }
 #home .backgroundimage-children .ring-container {
   display: flex;
@@ -86,11 +98,12 @@ header .right-side-header p {
   justify-content: center;
   gap: 4px;
   width: 100%;
+  color: white;
 }
 #home .backgroundimage-children .ring-container .ring {
   width: 15px;
   height: 15px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 50%;
   margin-top: 52px;
 }
@@ -101,9 +114,183 @@ header .right-side-header p {
   width: 100%;
 }
 #home .backgroundimage-children .input-box div {
-  width: 750px;
-  height: 190px;
-  border: 2px solid green;
-  margin-top: 96px;
+  width: 900px;
+  height: 222px;
+  margin-top: 86px;
   text-align: center;
+  background-color: white;
+}
+#home .backgroundimage-children .input-box div .headi-contact-d {
+  font-size: 22px;
+  margin-top: 20px;
+}
+#home .backgroundimage-children .input-box div input {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 80px;
+  font-size: 15px;
+  box-shadow: 2px 2px 10px 2px gray;
+  border: rgb(128, 128, 128);
+}
+#home .backgroundimage-children .input-box div button {
+  padding: 14px 50px;
+  background-color: #120A78;
+  color: white;
+  border: none;
+  transition: 300ms;
+  margin-top: 16px;
+}
+#home .backgroundimage-children .input-box div button:hover {
+  background-color: #F64646;
+}
+#home .three-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+  color: white;
+}
+#home .three-boxes div {
+  width: 335px;
+  height: 390px;
+  color: white;
+  text-align: center;
+}
+#home .three-boxes .box1 {
+  background-color: #120A78;
+  transition: 300ms;
+}
+#home .three-boxes .box1 img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+#home .three-boxes .box1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  border: 1px solid white;
+  padding: 7px 15px;
+}
+#home .three-boxes .box1 p {
+  word-spacing: 0.3px;
+  line-height: 22px;
+  font-size: 17px;
+}
+#home .three-boxes .box2 {
+  background-color: #F64646;
+}
+#home .three-boxes .box2 img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+#home .three-boxes .box2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  border: 1px solid white;
+  padding: 7px 15px;
+}
+#home .three-boxes .box2 p {
+  word-spacing: 0.3px;
+  line-height: 22px;
+  font-size: 17px;
+  margin-bottom: 37px;
+}
+#home .three-boxes .box3 {
+  background-color: #120A78;
+  transition: 300ms;
+}
+#home .three-boxes .box3 img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30px;
+}
+#home .three-boxes .box3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  border: 1px solid white;
+  padding: 7px 15px;
+}
+#home .three-boxes .box3 p {
+  word-spacing: 0.3px;
+  line-height: 22px;
+  font-size: 17px;
+  margin-bottom: 37px;
+}
+#home .three-boxes .box1:hover {
+  background-color: #F64646;
+}
+#home .three-boxes .box3:hover {
+  background-color: #F64646;
+}
+
+#about {
+  width: 100%;
+  height: 100vh;
+}
+#about .about-chrity {
+  width: 100%;
+  height: 90vh;
+  background-color: #120A78;
+  display: flex;
+  flex-wrap: wrap;
+}
+#about .about-chrity .left-about {
+  width: 52%;
+  height: 500px;
+  box-sizing: border-box;
+  margin-left: 165px;
+  margin-top: 90px;
+  color: white;
+  font-family: sans-serif;
+}
+#about .about-chrity .left-about a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 24px;
+  font-weight: 400;
+  font-size: 16px;
+  transition: 300ms;
+}
+#about .about-chrity .left-about a:hover {
+  background-color: #F64646;
+}
+#about .about-chrity .left-about h1 {
+  letter-spacing: 0.4px;
+  font-size: 35px;
+  margin-bottom: 60px;
+}
+#about .about-chrity .left-about P {
+  font-size: 18px;
+  word-spacing: 1px;
+  letter-spacing: 0.3px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 70px;
+}
+#about .about-chrity .right-about {
+  width: 25%;
+  height: 535px;
+  box-sizing: border-box;
+  margin-top: 75px;
+  margin-left: 20px;
+  background-image: url(about-img.png);
+  background-repeat: no-repeat;
+  background-position-y: -5px;
+  background-position-x: 5px;
+  background-size: cover;
+}
+
+#our-mission h1 {
+  font-family: sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+#our-mission p {
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
