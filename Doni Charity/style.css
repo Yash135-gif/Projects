@@ -9,7 +9,6 @@ body {
 
 header {
   width: 100%;
-  height: 113px;
   background-color: white;
   color: gray;
   display: flex;
@@ -34,6 +33,9 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: gray;
+}
+header ul li a:hover {
+  color: #120A78;
 }
 header .right-side-header {
   display: flex;
@@ -960,4 +962,31 @@ footer span {
   bottom: 165px;
   font-size: 22px;
   font-weight: 600;
+}
+
+form .form-div {
+  width: 550px;
+  height: 630px;
+  margin-top: 70px;
+  margin-left: 206px;
+}
+form .form-div h1 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+form .form-div input {
+  padding: 20px 300px 20px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.541);
+  border-radius: 5px;
+  font-size: 19px;
+}
+form .form-div a {
+  text-decoration: none;
+  padding: 12px 38px;
+  background-color: #120A78;
+  color: white;
+  transition: 400ms;
+}
+form .form-div a:hover {
+  background-color: #F64646;
 }/*# sourceMappingURL=style.css.map */
