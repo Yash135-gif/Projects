@@ -1,5 +1,6 @@
 * {
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -17,8 +18,11 @@ header {
   align-items: center;
   font-size: 19px;
 }
-header img {
+header .img1 {
   margin-left: 35px;
+}
+header .img2 {
+  display: none;
 }
 header ul {
   display: flex;
@@ -60,6 +64,7 @@ header .right-side-header p {
   box-sizing: border-box;
   align-items: center;
   font-family: sans-serif;
+  position: relative;
 }
 #home .backgroundimage-children {
   background-image: url(banner-bg.png);
@@ -121,7 +126,7 @@ header .right-side-header p {
 }
 #home .backgroundimage-children .input-box div {
   width: 900px;
-  height: 222px;
+  height: 226px;
   margin-top: 86px;
   text-align: center;
   background-color: white;
@@ -989,4 +994,352 @@ form .form-div a {
 }
 form .form-div a:hover {
   background-color: #F64646;
+}
+
+#new {
+  display: none;
+}
+
+#newa {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  header {
+    box-sizing: border-box;
+    padding: 1vw 3vw;
+  }
+  header .img1 {
+    display: none;
+  }
+  header .img2 {
+    display: block;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100vh;
+    position: fixed;
+    top: 115px;
+    right: -100;
+  }
+  header .right-side-header {
+    display: none;
+  }
+  #home .backgroundimage-children p {
+    font-size: 3vw;
+    padding: 2vw 8vw;
+  }
+  #home .input-box {
+    margin-top: 0vw;
+    height: 70vw;
+  }
+  #home .input-box div h1 {
+    padding-top: 6vw;
+    margin-bottom: 0;
+  }
+  #home .input-box div input {
+    width: 85%;
+    margin: 2vw;
+    padding: 0;
+  }
+  #home .three-boxes {
+    margin-top: 45vw;
+  }
+  #home .three-boxes div {
+    width: 66vw;
+  }
+  #about {
+    margin-top: 144vh;
+    height: 96vh;
+    background-color: #120A78;
+  }
+  #about .about-chrity .left-about {
+    margin-left: 5vw;
+  }
+  #about .about-chrity .left-about h1 {
+    margin-top: -3vw;
+    font-size: 5vw;
+    padding-right: 7vw;
+  }
+  #about .about-chrity .left-about p {
+    font-size: 2.7vw;
+  }
+  #about .about-chrity .left-about a {
+    font-size: 2.4vw;
+  }
+  #about .about-chrity .right-about {
+    height: 36vw;
+    background-size: cover;
+    background-position: center;
+    margin-left: 9vw;
+    margin-top: 18vw;
+  }
+  #our-mission {
+    width: 100%;
+  }
+  #our-mission h1 {
+    margin-top: 17vw;
+    margin-left: 7vw;
+    font-size: 29px;
+  }
+  #our-mission .our-mission-para {
+    margin-left: 7vw;
+    margin-top: 2.5vw;
+    font-size: 3vw;
+    width: 84%;
+  }
+  #our-mission .big1 {
+    align-items: center;
+    display: block;
+  }
+  #our-mission .big1 .small1 img {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  #our-mission .big1 .small1 .image1-content {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  #our-mission .big1 .small2 img {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  #our-mission .big1 .small2 .image2-content {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  #our-mission .big2 {
+    width: 100%;
+    display: block;
+    align-items: center;
+  }
+  #our-mission .big2 .small3 {
+    margin-top: 15vw;
+    margin-left: 0;
+    width: 90%;
+  }
+  #our-mission .big2 .small3 img {
+    width: 100%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  #our-mission .big2 .small3 .image3-content {
+    width: 100%;
+    margin-left: 3vw;
+    margin-right: 2.5vw;
+  }
+  #our-mission .big2 .small4 {
+    margin-top: 5vw;
+    width: 100%;
+  }
+  #our-mission .big2 .small4 img {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  #our-mission .big2 .small4 .image4-content {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 3vw;
+  }
+  #our-mission .big3 {
+    width: 100%;
+    display: block;
+    align-items: center;
+  }
+  #our-mission .big3 .small5 {
+    margin-top: 15vw;
+    margin-left: 0;
+    width: 90%;
+  }
+  #our-mission .big3 .small5 img {
+    width: 100%;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  #our-mission .big3 .small5 .image5-content {
+    width: 100%;
+    margin-left: 3vw;
+    margin-right: 2.5vw;
+  }
+  #our-mission .big3 .small6 {
+    margin-top: 5vw;
+    width: 100%;
+  }
+  #our-mission .big3 .small6 img {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 4vw;
+  }
+  #our-mission .big3 .small6 .image6-content {
+    width: 90%;
+    margin-left: 4vw;
+    margin-right: 3vw;
+  }
+  #news {
+    width: 100%;
+  }
+  #news .news-heading-container {
+    margin-left: 9vw;
+  }
+  #news .news-heading-container h1 {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  #news .news-heading-container p {
+    width: 85%;
+    font-size: 3vw;
+  }
+  #news .for-flex {
+    margin-left: 0;
+  }
+  #news .for-flex .news-image {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 92%;
+  }
+  #news .for-flex .news-image-right {
+    margin-left: 9vw;
+    width: 80vw;
+  }
+  #news .news-heading-container2 {
+    margin-left: 9vw;
+  }
+  #news .news-heading-container2 h1 {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  #news .news-heading-container2 p {
+    width: 85%;
+    font-size: 3vw;
+  }
+  #news .beautiful img {
+    margin-left: 9vw;
+    margin-top: 2vw;
+    width: 88%;
+  }
+  #news .beautiful .number {
+    left: -24.3vw;
+  }
+  #news .beautiful .numbera {
+    left: -24.1vw;
+  }
+  #news .beautiful .sweet {
+    margin-left: 9vw;
+  }
+  #news .beautiful .sweet h1 {
+    margin-top: 2vw;
+  }
+  #news .beautiful .sweet P {
+    width: 85%;
+    margin-top: 3vw;
+  }
+  #news .beautiful1 img {
+    margin-left: 9vw;
+    margin-top: 12vw;
+    width: 88%;
+  }
+  #news .beautiful1 .number1 {
+    left: -24.3vw;
+  }
+  #news .beautiful1 .numbera1 {
+    left: -24.1vw;
+  }
+  #news .beautiful1 .sweet1 {
+    margin-left: 9vw;
+  }
+  #news .beautiful1 .sweet1 h1 {
+    margin-top: 2vw;
+  }
+  #news .beautiful1 .sweet1 P {
+    width: 85%;
+    margin-top: 3vw;
+  }
+  #donat {
+    margin-top: 190vh;
+    width: 100%;
+    height: 115vh;
+  }
+  #donat .blue-blue h1 {
+    font-size: 5vw;
+    margin-left: 23vw;
+  }
+  #donat .blue-blue .a {
+    box-sizing: border-box;
+    margin: 2vw 5vw;
+  }
+  #donat .blue-blue .a h2 {
+    margin-top: -6vw;
+  }
+  #donat .blue-blue .a P {
+    margin-top: 8vw;
+    font-size: 2.7vw;
+    font-weight: 300;
+    line-height: 3.8vw;
+    font-family: cursive;
+  }
+  footer {
+    height: 95vh;
+    width: 100%;
+    position: relative;
+  }
+  footer .yo {
+    margin-top: 15vw;
+    margin-left: 8vw;
+    padding: 0;
+  }
+  footer .yo h1 {
+    font-size: 18px;
+  }
+  footer .yoo h1 {
+    font-size: 18vw;
+  }
+  footer .yoo ul li {
+    font-size: 3.3vw;
+  }
+  footer input {
+    margin-left: -70vw;
+    border: 1px so skyblue;
+    width: 60vw;
+    margin-top: 32vw;
+    color: white;
+  }
+  footer .yooo {
+    margin-top: 2vw;
+    margin-left: 8vw;
+    font-size: 18vw;
+  }
+  footer .yooo p {
+    font-size: 3vw;
+  }
+  footer .yoooo {
+    margin: 0;
+    padding: 0;
+    margin-left: 8vw;
+    margin-top: 2vw;
+    font-size: 18px;
+  }
+  footer .yoooo p {
+    font-size: 3vw;
+  }
+  footer .yooooo {
+    margin: 0;
+    padding: 0;
+  }
+  footer .yooooo p {
+    font-size: 2.6vw;
+    margin-left: 17vw;
+    word-spacing: 0.4vw;
+    margin-top: 10vw;
+  }
+  footer span {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -5,6 +5,7 @@ $button-blue:#120A78;
     // variables of the site -------------------------------------------------------
 *{
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 body{
     margin: 0;
@@ -22,8 +23,11 @@ header{
     align-items: center;
     font-size: 19px;
     
-     img{
+     .img1{
        margin-left: 35px;
+     }
+     .img2{
+      display: none;
      }
 
     ul{
@@ -72,6 +76,7 @@ header{
       box-sizing: border-box;
       align-items: center;
       font-family: sans-serif;
+      position: relative;
       
       .backgroundimage-children{
         background-image: url(banner-bg.png);
@@ -138,7 +143,7 @@ header{
 
             div{
                 width: 900px;
-                height: 222px;
+                height: 226px;
                 // border: 2px solid green;
                 margin-top: 86px;
                  text-align: center;
@@ -264,6 +269,8 @@ header{
               }
              }
          }
+             
+          //  about style starts from here---------------------------------------------
 
          #about{
           width: 100%;
@@ -331,7 +338,8 @@ header{
            
           }
          }
-       
+          
+        //  our-mission starts from here----------------------------------------------------------
      #our-mission{
          h1{
              font-family: sans-serif;
@@ -703,6 +711,7 @@ header{
            
        }
        
+      //  news style starts from ----------------------------------------------------------
        #news{
         width: 100%;
         height: 239vh;
@@ -951,6 +960,8 @@ header{
             }
           }
        }
+
+      //  donat style starts from here------------------------------------------------------------
     #donat{
       width: 100%;
       height: 600px;
@@ -999,6 +1010,9 @@ header{
         }  
       }
     }
+
+    // footer style starts from here-----------------------------------------------------------------------
+
     footer{
       width: 100%;
       height: 500px;
@@ -1142,6 +1156,460 @@ header{
         }
       }
     }
+
+    #new{
+      display: none;
+    }
+    #newa{
+      display: none;
+    }
+    
+      //  madia quiries starts from here----------------------------------------------------
+
+      @media(max-width:600px){
+         header{
+         
+          .img1{
+            display: none;
+          }
+          .img2{
+            display: block;
+          }
+          ul{
+            // display: none;
+            display: flex;
+            flex-direction: column;
+            margin: 0 100vh;
+            position: fixed;
+            top: 115px;
+            right: -100;
+
+          }
+          .right-side-header{
+            display: none;
+          }
+          box-sizing: border-box;
+          padding: 1vw 3vw;
+         
+            
+           
+         }
+         #home {
+          .backgroundimage-children{
+            p{
+             
+              font-size: 3vw;
+               padding: 2vw 8vw;
+            
+            }
+          }
+          .input-box {
+            margin-top: 0vw;
+            height: 70vw;
+               div{
+                h1{
+                 padding-top: 6vw;
+              margin-bottom: 0;
+                  
+                }
+    
+                input{
+                width: 85%;
+                margin: 2vw;
+                padding: 0;
+
+              }
+               }
+               }
+        
+              .three-boxes{
+                margin-top: 45vw;
+                div{
+                  width: 66vw;
+                }
+              }   
+            }
+            #about{
+              margin-top: 144vh;
+              height: 96vh;
+              background-color: #120A78;
+              .about-chrity{
+              .left-about{
+                margin-left: 5vw;
+                h1{
+                  margin-top: -3vw;
+                  font-size: 5vw;
+                  padding-right:7vw ;
+                }
+                p{
+                  font-size: 2.7vw;
+               
+                 
+                }
+                a{
+                  font-size: 2.4vw;
+                }
+              }
+              .right-about{
+               height: 36vw;
+               background-size: cover;
+               background-position: center;
+               margin-left: 9vw;
+               margin-top: 18vw;
+              }
+            }
+          }
+            
+            #our-mission{
+              width: 100%;
+              h1{
+                margin-top: 17vw;
+                margin-left: 7vw;
+                font-size: 29px;
+              }
+              
+              .our-mission-para{
+                margin-left: 7vw; 
+                margin-top: 2.5vw;
+                font-size: 3vw;  
+                width: 84%;
+              }
+              .big1{
+                 align-items: center;
+                 display: block;
+                .small1{
+                  img{
+                    width: 90%;
+                    margin-left: 4vw;
+                    margin-right: 4vw;
+                  }
+                  .image1-content{
+                    width: 90%;
+                    margin-left: 4vw;
+                    margin-right: 4vw;
+                  }
+                  
+
+               
+                }
+                .small2{
+                  img{
+                    width: 90%;
+                    margin-left: 4vw;
+                    margin-right: 4vw;
+                  }
+                  .image2-content{
+                    width: 90%;
+                    margin-left: 4vw;
+                    margin-right: 4vw;
+                  }
+                  
+
+               
+                }
+               
+              } 
+              .big2{
+                width: 100%;
+                display: block;
+          
+                align-items: center;
+              
+               .small3{
+                margin-top: 15vw;
+                margin-left: 0;
+                 width: 90%;
+                 img{
+                   width: 100%;
+                   margin-left: 3vw;
+                   margin-right: 3vw;
+                 }
+                 .image3-content{
+                   width: 100%;
+                   margin-left: 3vw;
+                   margin-right: 2.5vw;
+                 }
+                 
+
+              
+               }
+               .small4{
+                margin-top: 5vw;
+                width: 100%;
+                 img{
+                   width: 90%;
+                   margin-left: 4vw;
+                   margin-right: 4vw;
+                 }
+                 .image4-content{
+                   width: 90%;
+                   margin-left: 4vw;
+                   margin-right: 3vw;
+                 }
+                 
+
+              
+               }
+              
+             } 
+             .big3{
+              width: 100%;
+              display: block;
+        
+              align-items: center;
+            
+             .small5{
+              margin-top: 15vw;
+              margin-left: 0;
+               width: 90%;
+               img{
+                 width: 100%;
+                 margin-left: 3vw;
+                 margin-right: 3vw;
+               }
+               .image5-content{
+                 width: 100%;
+                 margin-left: 3vw;
+                 margin-right: 2.5vw;
+               }
+               
+
+            
+             }
+             .small6{
+              margin-top: 5vw;
+              width: 100%;
+               img{
+                 width: 90%;
+                 margin-left: 4vw;
+                 margin-right: 4vw;
+               }
+               .image6-content{
+                 width: 90%;
+                 margin-left: 4vw;
+                 margin-right: 3vw;
+               }
+               }
+            
+           } 
+            }
+            #news{
+              width: 100%;
+              .news-heading-container{
+                 margin-left: 9vw;
+                 h1{
+                  font-size: 29px;
+                  font-weight: 700;
+                  margin-bottom: 0;
+                 }
+                 p{
+                  width: 85%;
+                  font-size: 3vw; 
+                 }
+              }
+              .for-flex{
+                margin-left: 0;
+                .news-image{
+                 margin-left: 3vw;
+                 margin-right: 3vw;
+                 width: 92%;
+
+                }
+                .news-image-right{
+                 margin-left: 9vw;
+                 width: 80vw;
+                  }
+              }
+              .news-heading-container2{
+                margin-left: 9vw;
+                h1{
+                  font-size: 29px;
+                  font-weight: 700;
+                  margin-bottom: 0;
+                }
+                p{
+                  width: 85%;
+                  font-size: 3vw; 
+                }
+              }
+              .beautiful{
+                img{
+                  margin-left: 9vw;
+                  margin-top: 2vw;
+                  width: 88%;
+                }
+                .number{
+                  left: -24.3vw;
+                }
+                .numbera{
+                  left: -24.1vw;
+                }
+                .sweet{
+                  margin-left: 9vw;
+                  h1{
+                    margin-top: 2vw;
+                  }
+                  P{
+                    width: 85%;
+                    margin-top: 3vw;
+                  }
+                  
+                }
+              }
+              .beautiful1{
+                img{
+                  margin-left: 9vw;
+                  margin-top: 12vw;
+                  width: 88%;
+                }
+                .number1{
+                  left: -24.3vw;
+                }
+                .numbera1{
+                  left: -24.1vw;
+                }
+                .sweet1{
+                  margin-left: 9vw;
+                  h1{
+                    margin-top: 2vw;
+                  }
+                  P{
+                    width: 85%;
+                    margin-top: 3vw;
+                  }
+                  
+                }
+              }
+            }
+            #donat{
+               margin-top: 190vh;
+                width: 100%;
+                height: 115vh;
+                .blue-blue{
+                h1{
+                  font-size: 5vw;
+                   margin-left: 23vw;
+                }
+                .a{
+                
+             
+                  box-sizing: border-box;
+                  margin: 2vw 5vw;
+
+
+                  h2{
+                    margin-top: -6vw;
+                  }
+                  P{
+                    margin-top:8vw;
+                    font-size: 2.7vw;
+                    font-weight: 300;
+                    line-height: 3.8vw;
+                    font-family: cursive;
+                  }
+                }
+              }
+            }
+            footer{
+              height: 95vh;
+              width:100%;
+              position: relative;
+           
+              
+              .yo{
+                margin-top: 15vw;
+                margin-left: 8vw;
+                padding: 0;
+                h1{
+                  font-size: 18px;
+                }
+              }
+              .yoo{
+                // display: none;
+                h1{
+                  font-size: 18vw;
+                }
+            
+
+            
+                ul{
+                  
+                  li{
+                    font-size: 3.3vw;
+                    // margin: 0;
+                    // padding: 0;
+                  }
+                }
+
+              }
+            
+              input{
+                margin-left: -70vw;
+                border: 1px so skyblue;
+                width: 60vw;
+                margin-top: 32vw;
+                color: white;
+              }
+              .yooo{
+                // margin: 0;
+                margin-top: 2vw;
+                margin-left: 8vw;
+                // padding: 0;
+                // display: none;
+                font-size: 18vw;
+
+                p{
+                  font-size: 3vw;
+                }
+              }
+              .yoooo{
+                
+                margin: 0;
+                padding: 0; 
+                margin-left: 8vw;
+                margin-top: 2vw;
+                font-size: 18px;
+                // display: none;
+
+                p{
+                  font-size: 3vw;
+                }
+              }
+              .yooooo{
+                margin: 0;
+                padding: 0;
+                // display: none;
+                p{
+                  font-size: 2.6vw;
+                  margin-left: 17vw;
+                  word-spacing: 0.4vw;
+                  margin-top: 10vw;
+                }
+              }
+              span{
+                display: none;
+            
+              }
+
+            }
+
+
+
+
+         }
+         
+      
+
+
+    
+       
+      
+
+
+      
+
+    
+
 
           
           
