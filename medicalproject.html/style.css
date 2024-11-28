@@ -49,6 +49,9 @@
     font-weight: bold;
 
 }
+.content1{
+    display: none;
+}
 .h1text{
     margin-top: 230px;
     margin-left: 80px;
@@ -134,7 +137,7 @@
     border-radius: 20px;
     background-color: white;
     color: gray;
-    border-color: cornflowerblue;
+    border-color: rgba(100, 148, 237, 0.433);
 
 }
 .trust{
@@ -297,7 +300,7 @@ header .klinik-container i{
     margin: 22px 0 0 70px;
     border-radius: 35px;
     font-size: 16px;
-    transition: 200ms;   
+    transition: 400ms;   
     border-color: rgba(0, 0, 0, 0.607);
 }
 #services .box div .cardiology-btn:hover{
@@ -831,4 +834,324 @@ footer{
     margin-right: 100px;
     margin-top: 90px;
     font-size: 18px;
+}
+
+@media(max-width:600px){
+    /* header style starts from here----------------------------------- */
+    .upper-bar{
+       display: none;
+    }
+    header .klinik-container h1{
+       font-size: 5.4vw;
+       margin-left: -1vw;
+    }
+    header .klinik-container i{
+        font-size: 4vw;
+        margin-left: -4vw;
+    }
+    header ul{
+        display: none;
+    }
+
+    /* content style starts from here------------------------------- */
+    .content{
+        display: none;
+    }
+    .content1{
+      display: block;
+    }
+    .content-left{
+        width: 100%;
+        height: 80vw;
+
+    }
+    .h1text {
+        font-size: 4vw;
+        margin: 0; 
+       width: 100%;
+    }
+
+    .h1text h1{
+        line-height: 7.5vw;
+        word-spacing: 0.2vw;
+        letter-spacing: normal;
+        margin: 8vw auto;
+        margin-left: 10vw;
+        margin-right: 14vw;
+    }
+    .border-left-content{
+        display: block;
+    }
+    .border-left1 {
+  
+      /* margin: 0; */
+      /* padding: 0; */
+      margin-bottom: 6vw;
+      border-left: 1px solid white;
+      margin-left: 8vw;
+    }
+
+    .border-left1 h2{
+        font-size: 4vw;
+    }
+
+    .border-left1 p{
+        font-size: 2.6vw;
+    }
+    .border-left2 h2{
+        font-size: 4vw;
+    }
+
+    .border-left2 p{
+        font-size: 2.6vw;
+    }
+    .border-left3 h2{
+        font-size: 4vw;
+    }
+
+    .border-left3 p{
+        font-size: 2.6vw;
+    }
+    
+
+     .border-left2{
+        margin: 0;
+        /* padding: 0; */
+        margin-bottom: 6vw;
+        margin-left: 8vw;
+        border-left: 1px solid white;
+       
+     }
+     .border-left3{
+        /* margin: 0; */
+        /* padding: 0; */
+        margin-bottom: 6vw;
+        margin-left: 8vw;
+        border-left: 1px solid white;
+       
+     }
+
+
+   .content-right{
+    width: 100%;
+    height: 100vw;
+    align-items: center;
+    font-size: 6.5vw;
+    background-size: cover;
+    background-position: center;
+   
+}
+   /* about style starts from here------------------------------ */
+#about{
+    margin-top: 15vw;
+    width: 100%;
+    display: block;
+}
+#content-about{
+    display: block;
+    width: 100%;
+}
+#content-about .about-left{
+    width: 100%;
+}
+ 
+.halfimage1{
+    width: 58vw;
+ 
+    margin: 0;
+    padding: 0;
+    margin-left: 35vw;
+}
+.halfimage2{
+    width: 38vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 37vw;
+    margin: 0;
+    margin-left: 2vw;
+    padding: 0;
+    border-radius: 4%;
+}
+.about-right-css{
+    margin: 0;
+    padding: 0;
+}
+.about-right{
+    margin: 0;
+    padding: 0;
+}
+.about-right .about-right-css button{
+    margin-right: 10vw;
+}
+#content-about .about-right{
+    width: 100%; 
+}
+#about #content-about .about-right .about-right-css{
+    margin-left: 0;
+    width: 88%;
+    margin-top: 9vw;
+    margin-left: 5vw;
+   
+}
+.about-btn2{
+    padding: 1.5vw 4vw;
+    border-radius: 0.5vw;
+   
+}
+.trust{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+  /* service style starts from here----------------------- */
+  #services{
+    margin: 0;
+    margin-top: 100vw;
+    width: 100%;
+  }
+  #services div{
+    margin: 0;
+    width: 90vw;
+    margin-left: 3vw;
+    margin-right: 2vw;
+  }
+  #services .hcs{
+   margin-bottom: 10vw;
+  }
+  #services .box div .box-paragraph{
+    font-size: 2.8vw;
+  }
+  #services .box div .cardiology-btn{
+    margin-top: 5vw;
+    font-size: 2.5vw;  
+  }
+ 
+  #fourth .content-fourth{
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  #fourth{
+    margin-top: 250vw;
+    /* height: 250vh; */
+
+  }
+  #fourth .content-fourth .content-left-fourth{
+    width: 100%;
+    height: 120vh;
+  }
+  #fourth .content-fourth .content-right-fourth{
+    width: 90%;
+    height: 90vw;
+
+
+  }
+
+#fourth .content-fourth .content-right-fourth{
+    width: 90%;
+    height: 70vw;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+   bottom: 0vw;
+   left: 5vw;
+   right: 4vw;
+
+
+}
+
+#fourth .content-fourth .content-left-fourth .clf-div{
+    margin: 0;
+    margin-left: 4vw;
+    padding: 0;
+}
+#fourth .content-fourth .content-left-fourth .clf-div .btn-fourth{
+    margin-top: 4.5vw;
+    
+}
+#fourth .content-fourth .content-left-fourth .clf-div .statement{
+    font-size: 5vw;
+}
+#fourth .content-fourth .content-left-fourth .clf-div .fourth-paragraph{
+    font-size: 2.8vw;
+}
+.split1{
+    margin-top: 7vw;
+}
+.split2{
+    margin-top: 5vw;
+}
+   
+#department{
+    width: 100%;
+    margin-top: 42vw;
+   height: 350vh;
+     
+}
+.doctors{
+    display: block;
+    
+}
+
+#department h1{
+    font-size: 5vw;
+}
+#department .d{
+    color: gray;
+}
+.doctors div{
+    width: 100%;
+    /* margin-bottom: 30vw; */
+}
+.doctors .photo2{
+    margin-top: 35vw;
+}
+.doctors .photo3{
+    margin-top: 35vw;
+}
+.doctors .photo4{
+    margin-top: 35vw;
+}
+.doctors p{
+    /* margin-bottom: 250vw; */
+}
+.doctors div div{
+    width:80vw;
+    min-height: 70vh;
+    border-radius: 0px;
+   margin-left: 10vw;
+   margin-right: 8vw;
+   border-radius: 3%;
+}
+
+#contact{
+    margin-top: 10vw;
+    width: 100%;
+}
+#contact .form{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#contact .appointment{
+    width: 100%;
+}
+.a-f-container{
+    display: block;
+}
+#contact .a-f-container .appointment .make{
+    margin: 0;
+    padding: 0;
+}
+#review{
+    display: none;
+}
+footer{
+    display: none;
+}
+
+
 }

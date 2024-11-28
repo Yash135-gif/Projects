@@ -1006,22 +1006,47 @@ form .form-div a:hover {
 
 @media (max-width: 600px) {
   header {
+    align-items: flex-start;
     box-sizing: border-box;
     padding: 1vw 3vw;
+  }
+  header #newa {
+    display: block;
+    margin-top: 10vw;
+    margin-right: 6vw;
+    font-size: 32px;
+    border: 1px solid skyblue;
+    padding: 1vw 2vw;
+    color: #120A78;
+    border-radius: 4%;
+  }
+  header ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-right: 13vw;
+    margin-top: 26vh;
+    font-size: 2.5vw;
+    font-weight: 500;
+    display: none;
+  }
+  header #new:checked ~ ul {
+    display: block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-right: 13vw;
+    margin-top: 26vh;
+    font-size: 2.5vw;
+    font-weight: 500;
   }
   header .img1 {
     display: none;
   }
   header .img2 {
     display: block;
-  }
-  header ul {
-    display: flex;
-    flex-direction: column;
-    margin: 0 100vh;
-    position: fixed;
-    top: 115px;
-    right: -100;
   }
   header .right-side-header {
     display: none;
