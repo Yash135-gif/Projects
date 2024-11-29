@@ -835,6 +835,12 @@ footer{
     margin-top: 90px;
     font-size: 18px;
 }
+#checkbox{
+    display: none;
+}
+#bars{
+    display: none;
+}
 
 @media(max-width:600px){
     /* header style starts from here----------------------------------- */
@@ -849,9 +855,20 @@ footer{
         font-size: 4vw;
         margin-left: -4vw;
     }
+    #bars{
+        display: block;
+        margin-right: 5vw;
+        font-size: 4.7vw;
+        color: gray;
+        border: 1px solid skyblue;
+        padding: 0.5vw 1.2vw;
+    }
+
     header ul{
         display: none;
     }
+   
+
 
     /* content style starts from here------------------------------- */
     .content{
@@ -946,6 +963,10 @@ footer{
     margin-top: 15vw;
     width: 100%;
     display: block;
+    height: 115vw;
+}
+.about-btn2{
+    margin-top: 1vw;
 }
 #content-about{
     display: block;
@@ -1009,6 +1030,8 @@ footer{
     margin: 0;
     margin-top: 100vw;
     width: 100%;
+    height: 165vw;
+    
   }
   #services div{
     margin: 0;
@@ -1144,14 +1167,180 @@ footer{
 }
 #contact .a-f-container .appointment .make{
     margin: 0;
+    margin-left: 4vw;
     padding: 0;
+    width: 85%;
+}
+.blue1{
+    width: 100%;
+    border-radius: 2vw;
+}
+.blue2{
+    width: 100%;
+    border-radius: 2vw;
+}
+.app{
+    padding: 1.5vw 2vw;
+    margin: 0;
+    font-size: 2.6vw;
+
+}
+.talk{
+    font-size: 5vw;
+    word-spacing: 0;
+}
+.paragraph10{
+    font-size: 2.7vw;
+    margin-top: 2.8vw;
+    word-spacing: normal;
+}
+.form0{
+    height: auto;
+   
+    margin: 0;
+   margin-left: auto;
+   margin-right: auto;
+    padding: 0;
+    width: 90%;
+    padding-bottom: 10vw;
+}
+.describe{
+    margin: 0;
+    margin-left: 2vw;
+    padding-right: 30vw;
+    padding-bottom: 18vw;
+    border-radius: 4%;
+
+}
+.book-appointment{
+    margin: 0;
+    margin-top: 2vw;
+    margin-left: 9vw;
+    width: 68vw;
+    padding: 0;
+    padding: 3vw 0;
+    border-radius: 3%;
+}
+.form1{
+    margin: 0;
+}
+.input1{
+    margin-bottom: 3vw;
+}
+.input3{
+    margin-bottom:3vw ;
 }
 #review{
-    display: none;
+   margin-top: 100vw;
 }
+.testimonial{
+    font-size: 2.7vw;
+}
+.people{
+    font-size: 5vw;
+}
+.circle{
+    margin-top: 6vw;
+}
+.people-review{
+    width: 85%;
+    font-size: 2.7vw;
+    margin-top: 5vw;
+}
+.second{
+    margin: 0;
+    padding: 0;
+    width: 85%;
+
+}
+ 
 footer{
+    display: block;
+}
+.footer-line{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+.footer-content{
+    height: auto;
+    padding-bottom: 10vw;
+}
+.one{
+    margin: 0;
+    margin-top: 10vw;
+    margin-left: 5vw;
+
+    padding: 0;
+
+}
+.one h3{
+    font-size: 3.5vw;
+}
+.one p{
+    font-size: 2.6vw;
+}
+.two{
+    margin: 0;
+    margin-top: -2vw;
+    margin-left: 5vw;
+    padding: 0;
+    font-size: 3vw;
+} 
+.border{
     display: none;
+} 
+
+.two h3{
+    font-size: 3.5vw;
+}
+.two p{
+    font-size: 2.6vw;
+}
+.sign-up{
+    top: 16vw;
 }
 
 
+
+.three{
+    margin: 0;
+    margin-top: -4vw;
+    margin-left: 5vw;
+    padding: 0;
+    font-size: 3vw;
+}
+.three h3{
+    font-size: 3.5vw;
+}
+.three p{
+    font-size: 2.6vw;
+}
+
+.four{
+    margin: 0;
+    margin-top: -4vw;
+    margin-left: 5vw;
+    padding: 0;
+    font-size: 3vw;
+}
+
+.four h3{
+    font-size: 3.5vw;
+}
+.four p{
+    font-size: 2.6vw;
+}
+.complete{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 2.6vw;
+    margin-top: -7vw;
+    margin-left: 30vw;
+    margin-right: 16vw;
+}
+.complete div{
+    margin-bottom: 2vw;
+}
 }
