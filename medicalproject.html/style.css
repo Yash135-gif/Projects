@@ -842,7 +842,7 @@ footer{
     display: none;
 }
 
-@media(max-width:600px){
+@media(max-width:900px){
     /* header style starts from here----------------------------------- */
     .upper-bar{
        display: none;
